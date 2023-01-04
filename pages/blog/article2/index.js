@@ -66,7 +66,7 @@ export default function Index() {
                   <p>In most cases, yes. Nothing good comes easy.</p>
                 </li>
                 <li ><span className='font-[600] text-[17px]'>Who can give me good signals? </span>
-                  <p>Any reputable trader can predict good signals. Visit <Link href='/courses/xyztradingsignals' ><a className='text-[blue]'>xyzacademy</a></Link> if you don't know where to start.</p>
+                  <p>Any reputable trader can predict good signals. Visit <Link href='/courses/xyztradingsignals' ><a className='text-[blue]'>xyzacademy</a></Link> if you don&apos;t know where to start.</p>
                 </li>
                 <li ><span className='font-[600] text-[17px]'>How are signals generated?</span>
                   <p>Expert analysts use technical analysis to make predictions and generate signals.</p>
