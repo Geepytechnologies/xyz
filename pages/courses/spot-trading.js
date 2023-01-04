@@ -42,7 +42,7 @@ export default function spottrading() {
         {/* Description */}
         <div>
           <p className="font-[600]">COURSE DESCRIPTION</p>
-          <h2>"Stay positioned as we walk you through the journey of financial freedom"</h2>
+          <h2>&quot;Stay positioned as we walk you through the journey of financial freedom&quot;</h2>
           <h2>As a young man or woman who has little or no knowledge about the financial market, this course is the best guide to hoist you onto the pathway of financial freedom and greatness!</h2>
           <h2>What is spot trading? This is a trading that involves directly purchasing or selling financial instruments and assets like crypto currencies in the spot market using a varying range of brokers in the financial ecosystem, such as binance, kucoin, hotbit, etcetera.</h2>
           <h2>Growing your finances just got easier through trading, with XYZ ACADEMY as your guide. Subscribing to our spot trading ultimate guide will help you achieve that. Throughout this program, our experts will take you through, to ensure that you gain mastery in spots trading and also help you develop the right psychology that you need as a spot trader.</h2>

@@ -46,7 +46,7 @@ export default function futures() {
           <h2>Futures are financial contracts in which two parties, one buyer and one seller agree to exchange an underlying market for a fixed price at a future date.</h2>
           <h2>This course is a complete guide on how to trade futures, you will also be taught on how to read the market alongside basic principles of futures trading. This course will enlighten you on how to exit and also manage risks, you will also be taught how to read and interprete trends correctly on futures trading, you will also be taught effective tools in futures trading. </h2>
           <h2>Our goal is to help you develop the skill and mindset to begin or take your trading journey to another level. </h2>
-          <h2>Let's get started!</h2>
+          <h2>Let&apos;s get started!</h2>
           <Link href={{pathname:'/Pay',query: {course: 'Futures'} }}><a><button className='bg-[black] font-[600] text-white p-[10px] w-[150px] m-[5px] '>Enroll now</button></a></Link>
         </div>
         </div>

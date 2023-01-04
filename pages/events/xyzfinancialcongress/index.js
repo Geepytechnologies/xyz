@@ -137,7 +137,7 @@ export default function Index() {
               <p className='leading-7 font-rob'>Why is it that we have so many people who are informed about the processes of acquiring and sustaining wealth BUT only 20% of us are genuinely wealthy?</p>
               <p className='leading-7 font-rob'>There is an irrational proportion of Financial parrots in our society! Wealth can be gotten genuinely. Yes you can become wealthy without duping people or killing the people you love just to sustain it.</p>
               <p className='leading-7 font-rob'>This is why this financial Congress is called <span className='font-[600]'>THE REAL DEAL!</span> .This Congress is bent on recruiting men who are Financial parrots and making them <span className='font-[600]'>FINANCIAL LIONS!</span> Where you talk less and do more!</p>
-              <p className='leading-7 font-rob'>If you are among the set of people that have been desperately praying to genuinely increase your Financial capacity, you must attend this Congress! And if you are among those people that think they can't make it to the top celebrated 20%, attend this Congress and see how bright your future can be!</p>
+              <p className='leading-7 font-rob'>If you are among the set of people that have been desperately praying to genuinely increase your Financial capacity, you must attend this Congress! And if you are among those people that think they can&apos;t make it to the top celebrated 20%, attend this Congress and see how bright your future can be!</p>
               <p className='font-[600] font-mont'>Register with just $4 (2k).</p>
               <p>Check out our speakers here.</p>
               <p>Meet our tutors here.</p>

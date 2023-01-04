@@ -11,16 +11,16 @@ export default function Index() {
             <article>
             <h1 className='font-[700] text-[20px]'>UNDERSTANDING BLOCKCHAIN TECHNOLOGY</h1>
             <div className='w-[500px] h-[300px] relative'>
-            <Image src={'/IMG_1283.jpg'} layout='fill' objectFit='cover' objectPosition={'center'} />
+            <Image src={'/IMG_1305.jpg'} layout='fill' objectFit='cover' objectPosition={'center'} />
             </div>
-            <h2>In recent years, you have always heard of the term "blockchain technology" especially regarding cryptocurrencies like bitcoin and ethereum. 
-            Blockchain is one of the most important invention in recent years, it is a structure that stores transactional records also known as the "block", of the public in several databases, known as the "chain" in a network connected through peer to peer nodes. This storage is known as a "Digital Ledger"
+            <h2>In recent years, you have always heard of the term &quot;blockchain technology&quot; especially regarding cryptocurrencies like bitcoin and ethereum. 
+            Blockchain is one of the most important invention in recent years, it is a structure that stores transactional records also known as the &quot;block&quot;, of the public in several databases, known as the &quot;chain&quot; in a network connected through peer to peer nodes. This storage is known as a &quot;Digital Ledger&quot;
             </h2>
             <h1 className='font-[700] text-[20px]'>WHAT IS BLOCKCHAIN?</h1>
-            <h2>Whenever a transaction is performed, it goes to the network and computer algorithm determines the authenticity of the transaction, once it's verified, this new transaction is linked with the previous transactions forming a chain of transactions. This chain is called the <span className='font-[600] text-[18px]'>"BLOCKCHAIN"</span>
+            <h2>Whenever a transaction is performed, it goes to the network and computer algorithm determines the authenticity of the transaction, once it&apos;s verified, this new transaction is linked with the previous transactions forming a chain of transactions. This chain is called the <span className='font-[600] text-[18px]'>&quot;BLOCKCHAIN&quot;</span>
             </h2>
             <h1 className='font-[700] text-[20px]'>BRIEF HISTORY OF BLOCKCHAIN</h1>
-            <h2>The history of blockchain dates back to 2008, through one person or group known as Satoshi Nakamoto. Satoshi Nakamoto is known as the brains behind blockchain technology, when he first published a paper bitcoin in 2008 as "Bitcoin". He provided details of how the technology was well equipped to improve digital trust given the decentralization aspect that meant nobody would ever be in control of anything. However, since Satoshi Nakamoto left and handed over bitcoin development to core developers, the digital ledger has evolved resulting in new applications that makeup the blockchain history.</h2>
+            <h2>The history of blockchain dates back to 2008, through one person or group known as Satoshi Nakamoto. Satoshi Nakamoto is known as the brains behind blockchain technology, when he first published a paper bitcoin in 2008 as &quot;Bitcoin&quot;. He provided details of how the technology was well equipped to improve digital trust given the decentralization aspect that meant nobody would ever be in control of anything. However, since Satoshi Nakamoto left and handed over bitcoin development to core developers, the digital ledger has evolved resulting in new applications that makeup the blockchain history.</h2>
             <h1 className='font-[700] text-[20px]'>THE DIFFERENT TYPES OF BLOCKCHAIN </h1>
             <div className='w-[500px] h-[300px] relative '>
                 <Image src={'/article101.png'} layout='fill' objectFit='cover' objectPosition={'center'} />
@@ -29,7 +29,7 @@ export default function Index() {
               <ul>
                 <li><span className='font-[600] text-[18px]'>Public Blockchains: </span>They are permissionless in nature, allow anyone to join, and are completely decentralized. Bitcoin and Ethereum are typical examples of public blockchain. </li>
                 <li><span className='font-[600] text-[18px]'>Private Blockchain: </span>A private blockchain is managed by a network administrator and participants needs consent to join the network.</li>
-                <li><span className='font-[600] text-[18px]'>Consortium Blockchain: </span>It is a type of semi-decentralised network in which members are not granted to a single entity, instead it's granted to a group of individuals or nodes.</li>
+                <li><span className='font-[600] text-[18px]'>Consortium Blockchain: </span>It is a type of semi-decentralised network in which members are not granted to a single entity, instead it&apos;s granted to a group of individuals or nodes.</li>
                 <li><span className='font-[600] text-[18px]'>Hybrid Blockchain: </span>A hybrid blockchain is a special type of blockchain technology that merges the components of both public and private blockchains.</li>
               </ul>
             <h1 className='font-[700] text-[20px]'>HOW BLOCKCHAIN TECHNOLOGY WORKS.</h1>

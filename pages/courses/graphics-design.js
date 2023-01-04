@@ -43,7 +43,7 @@ export default function graphicsdesign() {
         {/* Description */}
         <div>
           <p className="font-[600]">COURSE DESCRIPTION</p>
-          <h2>"Design is a solution to a problem, art is a question to a problem” - John Maeda, president of Rhodes Island school of designs.</h2>
+          <h2>Design is a solution to a problem, art is a question to a problem” - John Maeda, president of Rhodes Island school of designs.</h2>
           <h2>Graphic design is the ability to create visual concepts to communicate information. You create everything from posters and billboards, to packaging, logos, and marketing materials.</h2>
           <h2>Graphics designers use elements such as shapes, colors, topography images and more to convey ideas to an audience.</h2>
           <h2>Do you want to learn graphics designs? You are at the right place. Becoming a top skilled graphics designer just got better with XYZ Academy as your guide.</h2>

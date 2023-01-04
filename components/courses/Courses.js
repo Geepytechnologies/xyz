@@ -66,7 +66,7 @@ export default function Courses() {
                             <FaAward style={{fill:'#f08800', fontSize: 40}} />
                             <p className='text-white text-center font-[700] text-[25px] '>Spot trading</p>
                             <p className='text-white font-[600] text-[20px]'>NGN60,000</p>
-                            <p className='text-white text-center p-[3px]'>Become a profitable spot trader in 90 days even if you don't know anything in crypto trading now!</p>
+                            <p className='text-white text-center p-[3px]'>Become a profitable spot trader in 90 days even if you don&apos;t know anything in crypto trading now!</p>
                             <Link href={{pathname:'/courses/spot-trading' }} ><div className='bg-[#f08800] text-center text-white p-[10px] w-[100%] rounded-xl cursor-pointer border border-white mt-[3px] cardshadow '>Get Started</div></Link>
                         </div>
                     </div>

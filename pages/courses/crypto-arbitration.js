@@ -43,7 +43,7 @@ export default function cryptoarbitration() {
             <div>
               <p className="font-[600]">COURSE DESCRIPTION</p>
               <h2>Take this complete guide on Crypto Arbitration and start trading today.</h2>
-              <h2>"As a white colar job man I have no place in Crypto trading" few years ago you could have gotten away with that statement. Today you say that to your friends and they scoff at you before going back to their phones to check for signals. </h2>
+              <h2>&quot;As a white colar job man I have no place in Crypto trading&quot; few years ago you could have gotten away with that statement. Today you say that to your friends and they scoff at you before going back to their phones to check for signals. </h2>
               <h2>What is arbitrage?  It is a trading strategy in which assets is purchased in one market and sold immediately in another market at a higher price, exploiting the price difference to turn profits. In Crypto Arbitration Crypto is the asset used.</h2>
               <h2>Our experts in Xyz academy will take you through step by step process on how to profitably buy and sell coins. Grab this great opportunity and register with us.</h2>
               <h2>Greatness awaits!</h2>

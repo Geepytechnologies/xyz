@@ -104,11 +104,11 @@ export default function Signal() {
                 <div className='px-[10px] pb-[10px]'>
                 <p className='font-[600] text-[20px]'>XYZ Trading Signals</p>
                 <p>Allow us to do the analysis for you and give you trade calls that will keep you profitable in the market.</p>
-                <p>You will be added to our premium WhatsApp group chat where you'd receive trade calls on weekly basis so that you know when to enter and exit the market.</p>
+                <p>You will be added to our premium WhatsApp group chat where you&apos;d receive trade calls on weekly basis so that you know when to enter and exit the market.</p>
                 <p>This will last throughout the quarter that is 3months.</p>
-                <p>We'd also recommend daily profit limits for you so that you don't loose your money due to greed.</p>
-                <p>We will be responsible for giving you trade calls but you'd be responsible for profit and your loss.</p>
-                <p>When you listen to us, you'd surely have so many successful trades and few non successful trades.</p>
+                <p>We&apos;d also recommend daily profit limits for you so that you don&apos;t loose your money due to greed.</p>
+                <p>We will be responsible for giving you trade calls but you&apos;d be responsible for profit and your loss.</p>
+                <p>When you listen to us, you&apos;d surely have so many successful trades and few non successful trades.</p>
                 <p>Choose one or all of the following:</p>
                 <p>Forex.  Crypto.   Synthetic Indices.</p>
 

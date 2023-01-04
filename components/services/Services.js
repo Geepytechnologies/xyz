@@ -23,7 +23,7 @@ export default function Services() {
         <div className="shadow rounded-lg md:mr-[15px] h-[100%] w-[95%] md:w-[45%] ">
             <div className="w-[100%] h-[300px] rounded-lg bg-cover bg-center bg-[url('/IMG1.jpg')] "></div>
             <div className=' flex flex-col items-center justify-center'>
-                <h1 className="mx-[8px] text-[#373737] text-center font-[600] text-[25px] sm:text-[40px]">Are you so busy that you can't <span className='text-[#f08800] text-[45px] font-danc'>trade</span> by yourself?</h1>
+                <h1 className="mx-[8px] text-[#373737] text-center font-[600] text-[25px] sm:text-[40px]">Are you so busy that you can&apos;t <span className='text-[#f08800] text-[45px] font-danc'>trade</span> by yourself?</h1>
                 <h2 className="text-center m-[5px] text-[20px]">Let us manage your account and increase your portfolio without you having to sit down all day observing the market</h2>
                 <button onClick={()=>{router.push('/contact/account-management')}} className='bg-[rgba(12,25,82,0.9)] m-[3px] flex items-center justify-center p-[5px] text-white rounded-lg'><span className='mr-[5px] font-[600]'>See How</span><FaArrowAltCircleRight style={{fill:'white'}} /></button>
             </div>

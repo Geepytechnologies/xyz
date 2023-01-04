@@ -28,7 +28,7 @@ export default function FAQ() {
         </div>
         <div className='mb-[10px]'>
             <p className='font-[700]'>How does XYZ account management work?</p>
-            <p className=''>It is simple and it is for those who are so busy that they can't trade by themselves. Click <span onClick={()=>{router.push('/contact/account-management.js')}} className='text-[blue] underline cursor-pointer'>here</span> to learn more</p>
+            <p className=''>It is simple and it is for those who are so busy that they can&apos;t trade by themselves. Click <span onClick={()=>{router.push('/contact/account-management.js')}} className='text-[blue] underline cursor-pointer'>here</span> to learn more</p>
         </div>
         <div className='mb-[10px]'>
             <p className='font-[700]'>How can I join the one month $10-$100 challenge?</p>

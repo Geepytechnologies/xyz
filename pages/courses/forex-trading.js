@@ -44,7 +44,7 @@ export default function forextrading() {
           <p className="font-[600]">COURSE DESCRIPTION</p>
           <h2>The foreign exchange (Forex) market is a global decentralized or over the counter market for the trading of currencies.</h2>
           <h2>This market determines foreign exchange rates for every currency. It includes all aspects of buying, selling and exchanging currencies at current or determined prices.</h2>
-          <h2>This market is the most heavily traded market in the world because people, businesses, and countries all participate in it and it's an easy market to access.</h2>
+          <h2>This market is the most heavily traded market in the world because people, businesses, and countries all participate in it and it&apos;s an easy market to access.</h2>
           <h2>Foreign exchange was once a concept of government, large companies and hedge funds. But now trading currency is as easy as anything you can think of, accessibility is not an issue, which means anyone can do it. And YOU too can do it.</h2>
           <h2>Want to know more about how to trade forex? Our ultimate forex Trading course will cover how to get started, help you make your first trades and teach you how to create a long term trading plan for a long term success.</h2>
           <h2>Take charge of your financial growth!</h2>

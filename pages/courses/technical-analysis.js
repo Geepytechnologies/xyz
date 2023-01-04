@@ -42,7 +42,7 @@ export default function technicalanalysis() {
             {/* Description */}
             <div>
               <p className="font-[600]">COURSE DESCRIPTION</p>
-              <h2>"Journey to greatness does not always come on a platter of gold"</h2>
+              <h2>&quot;Journey to greatness does not always come on a platter of gold&quot;</h2>
               <h2>This course is not one of those fleecy classes that is always sweet and smooth sailing. This course throws you into the deep end, it requires alot of mental preparation.</h2>
               <h2>This course will give you a full overview of the technical analysis journey, it will give you so much practical exercises that the real world will seem like a piece of cake when you graduate. It comes with assignments that require a lot of mental work, but do not worry..... You will crush it! This course will also help you to develop a good understanding of the financial market.</h2>
               <h2>So what is it going to be? Do you want to take up this course and become the most sought after technical analyst?</h2>

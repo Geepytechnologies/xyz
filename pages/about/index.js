@@ -34,32 +34,32 @@ export default function About() {
         <Slider {...settings} className="w-[90%] p-[10px] z-[1]" >
           <div>
             <div className='relative w-[100%] h-[400px] border-2 border-white '>
-              <Image src={'/whats1.jpeg'} layout='fill' objectFit='contain' />
+              <Image alt='' src={'/whats1.jpeg'} fill={true} style={{objectFit: 'contain'}} />
             </div>            
           </div>
           <div>
            <div className='relative w-[100%] h-[400px] border-2 border-white'>
-            <Image src={'/whats2.jpeg'} layout='fill' objectFit='contain'  />
+            <Image alt='' src={'/whats2.jpeg'} fill={true} style={{objectFit: 'contain'}}  />
            </div>
           </div>
           <div>
             <div className='relative w-[100%] h-[400px] border-2 border-white'>
-              <Image src={'/whats3.jpeg'} layout='fill' objectFit='contain' />
+              <Image alt='' src={'/whats3.jpeg'} fill={true} style={{objectFit: 'contain'}} />
             </div>
           </div>
           <div>
             <div className='relative w-[100%] h-[400px] border-2 border-white'>
-              <Image src={'/whats4.jpeg'} layout='fill' objectFit='contain'  />
+              <Image alt='' src={'/whats4.jpeg'} fill={true} style={{objectFit: 'contain'}}  />
             </div>
           </div>
           <div>
             <div className='relative w-[100%] h-[400px] border-2 border-white'>
-              <Image src={'/whats5.jpeg'} layout='fill' objectFit='contain' />
+              <Image alt='' src={'/whats5.jpeg'} fill={true} style={{objectFit: 'contain'}} />
             </div>
           </div>
           <div>
             <div className='relative w-[100%] h-[400px] border-2 border-white'>
-              <Image src={'/whats6.jpeg'} layout='fill' objectFit='contain' />
+              <Image alt='' src={'/whats6.jpeg'} fill={true} style={{objectFit: 'contain'}} />
             </div>
           </div>
         </Slider>
@@ -73,11 +73,11 @@ export default function About() {
         <p className='font-[600] text-[25px] text-[#f08800] '>Our Vision</p>
         <div className='w-[100%]'>
           <div className="h-[250px] md:h-[300px] w-[100%] border-[3px] rounded-xl border-[white]  relative">
-            <Image alt='' src='/vision.jpg' layout='fill' objectFit='cover' className='rounded-xl' />
+            <Image alt='' src='/vision.jpg' fill={true} style={{objectFit: 'contain'}} className='rounded-xl' />
           <div className="bg-[url('/logowhite.png')] bg-cover bg-center w-[150px] h-[150px] absolute top-0 left-0 "></div>
           </div>
         </div>
-        <p>To raise thousands of youths to be financially free and stable by exposing them to the  "financial market and tech-world" by giving them the intensive knowledge needed in order to be profitable consistently.</p>
+        <p>To raise thousands of youths to be financially free and stable by exposing them to the  &quot;financial market and tech-world&quot; by giving them the intensive knowledge needed in order to be profitable consistently.</p>
       </div>
     )
   }
