@@ -61,7 +61,7 @@ export default function Paychallenge() {
   const [price, setPrice] = useState(3000);
   const form = useRef();
   const paystack = useRef();
-  const publicKey = "pk_live_e86d006caf0b6e1b565b6da482b995a15606a35e"
+  const publicKey = NEXT_PUBLIC_PAY_LIVE_KEY
   const amount = Number(price) * 100;
   const challengePrice = price;
   const item = '$10 to $100 challenge';

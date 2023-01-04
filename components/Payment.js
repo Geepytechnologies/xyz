@@ -4,7 +4,7 @@ import axios from 'axios';
 
 
 export default function Payment() {
-  const publicKey = "pk_test_9f80648df27aa9d39816dc02d0bb64f83ace3241"
+  const publicKey = NEXT_PUBLIC_PAY_TEST_KEY
   const amount = 1000000
   const [email, setEmail] = useState("")
   const [name, setName] = useState("")
