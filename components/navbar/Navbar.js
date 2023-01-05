@@ -40,6 +40,17 @@ export default function Navbar(props) {
         side.current.style.borderTop = '0px';
     }
     useEffect(()=>{
+        const hide = () => {
+            document.body.style.overflow = 'scroll';
+            menu.current.style.display = 'flex';
+            close.current.style.display = 'none';
+            side.current.style.maxHeight = '0px';
+            side.current.style.borderBottom = '0px';
+            side.current.style.borderTop = '0px';
+        }
+        hide();
+    },[])
+    useEffect(()=>{
        if(props && props.active == 'home'){
        home.current.classList.remove('w-[0px]')
        home.current.classList.add('bg-[hsl(34,100%,47%)]')

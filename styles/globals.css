@@ -31,7 +31,7 @@ table,th,td{
 }
 .about{
   /* width: 100vw; */
-  background-image: url('../images/btc.jpg');
+  background-image: url('/btc.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -76,14 +76,14 @@ background: linear-gradient(0deg, rgba(12,25,82,1) 11%, rgba(150,153,171,1) 84%)
   filter: opacity(0.9);
 }
 .practice{
-  background-image: url('../images/stock1.jpg');
+  background-image: url('/stock1.jpg');
   background-size: cover;
   background-position: center;
   filter: blur(1px);
   filter: saturate(0.5);
 }
 .earn{
-  background-image: url('../images/laptop&coin.jpg');
+  background-image: url('/laptop&coin.jpg');
   background-size: cover;
   background-position: center;
   filter: blur(1px);
@@ -91,7 +91,7 @@ background: linear-gradient(0deg, rgba(12,25,82,1) 11%, rgba(150,153,171,1) 84%)
   /* filter: grayscale(50%); */
 }
 .mastery{
-  background-image: url('../images/cryptoglobe.jpg');
+  background-image: url('/cryptoglobe.jpg');
   background-size: cover;
   background-position: center;
   filter: blur(1px);
@@ -112,7 +112,7 @@ background: linear-gradient(90deg, rgba(12,25,82,1) 11%, #f08800 60%, rgba(12,25
 -moz-box-shadow: -2px -2px 5px 1px rgba(0,0,0,0.2);
 }
 .cardimg{
-  background-image: url('../images/logowhite.png');
+  background-image: url('/logowhite.png');
   background-size: cover;
   background-position: center;
   filter: opacity(0.1);
@@ -123,7 +123,7 @@ background: linear-gradient(90deg, rgba(12,25,82,1) 11%, #f08800 60%, rgba(12,25
   opacity: 0.2;
 }
 .image1{
-  background-image: url('../images/tradebtc.jpg');
+  background-image: url('/tradebtc.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -131,7 +131,7 @@ background: linear-gradient(90deg, rgba(12,25,82,1) 11%, #f08800 60%, rgba(12,25
   background-color: rgba(12, 25, 82, 0.5);
 }
 .image2{
-  background-image: url('../images/cryptocoins.jpg');
+  background-image: url('/cryptocoins.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -139,33 +139,33 @@ background: linear-gradient(90deg, rgba(12,25,82,1) 11%, #f08800 60%, rgba(12,25
   background-color: rgba(12, 25, 82, 0.7);
 }
 .img0{
-  background-image: url('../images/chukwuma.jpg');
+  background-image: url('/chukwuma.jpg');
   background-size: cover;
   /* background-position: center; */
 }
 .img1{
-  background-image: url('../images/obasi.jpg');
+  background-image: url('/obasi.jpg');
   background-size: cover;
   transform: rotate(40deg);
   /* background-position: center; */
 }
 .img2{
-  background-image: url('../public/IMG4.jpg');
+  background-image: url('/IMG4.jpg');
   background-size: cover;
   background-position: center;
 }
 .img3{
-  background-image: url('../images/humble.jpeg');
+  background-image: url('/humble.jpeg');
   background-size: cover;
   /* background-position: center; */
 }
 .img4{
-  background-image: url('../images/blessing.jpeg');
+  background-image: url('/blessing.jpeg');
   background-size: cover;
   /* background-position: center; */
 }
 .challimg{
-  background-image: url('../public/IMG_0619.jpg');
+  background-image: url('/IMG_0619.jpg');
 }
 .shadow{
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);

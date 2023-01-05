@@ -13,6 +13,7 @@ import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 import SyncLoader from "react-spinners/SyncLoader"
 import { data } from 'autoprefixer'
+import Link from 'next/link'
 
 export default function Register() {
   const router = useRouter();
@@ -158,6 +159,7 @@ export default function Register() {
                   onChange={(e)=>setPassword(e.target.value)} 
                 />
               </div>
+              <p>Already have an account? <Link href={'/signin'} className='underline text-blue-600 font-[600]'>Log In</Link></p>
               {loading !== true ? <button type='submit' className="bg-[black] text-white p-[10px] mt-[20px] rounded-lg">Submit</button> : <div className='mt-[15px]'><SyncLoader color="#f08800" /></div>}
             </form>
           </div>

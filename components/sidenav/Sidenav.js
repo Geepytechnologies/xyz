@@ -5,8 +5,13 @@ import {FaHome,FaBloggerB } from 'react-icons/fa'
 import {MdMiscellaneousServices } from "react-icons/md";
 import { IoIosContacts } from "react-icons/io";
 import Link from 'next/link';
+import { useSelector } from 'react-redux';
+import { selectuser } from '../../utils/userSlice';
+import { useRouter } from 'next/router';
 
 export default function Sidenav() {
+    const user = useSelector(selectuser)
+    const router = useRouter()
   return (
     <div className=''>
         <div className='text-white flex flex-col justify-around w-[100vw]'>
@@ -30,6 +35,9 @@ export default function Sidenav() {
             <div className='mr-[5px]'><FaBloggerB style={{fill: 'hsl(34,100%,47%)'}}/></div>
             <div><Link href='/blog'>Blog</Link></div>
         </div>
+        {user == null ? <div onClick={()=>router.push('/login')} className='bg-[#f08000] font-[600] mb-[10px] cursor-pointer w-[100px] px-1 py-2 text-white text-center ml-[5px] rounded-xl'>
+            LOGIN
+        </div> : null}
     </div>
         <div>
             <div className='w-[100%] p-[5px] flex items-center justify-center'>
