@@ -21,10 +21,15 @@ export default function Login() {
   const handleSubmit = async (e)=>{
     e.preventDefault();
     setLoading(true);
-    const res = await axios.post('/api/login', {password, email})
-    dispatch(login(res.data))
-    setLoading(false);
-    router.push('/');
+    try{
+      const res = await axios.post('/api/login', {password, email})
+      dispatch(login(res.data))
+      setLoading(false);
+      toast.success("Login Successful")
+      router.push('/');
+    }catch(err){
+      setLoading(false);
+    }
   }
   const notify = (err) => toast.error(err, {
     position: "top-center",

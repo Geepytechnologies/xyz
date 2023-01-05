@@ -67,7 +67,7 @@ export default function Register() {
     }else{
       try{
         await axios.post('/api/register', {phone, firstname, surname, email, password});
-        notify("Registration successful");
+        toast.success("Registration successful");
         setLoading(false);
         router.push('/login');
       }catch(err){
@@ -159,7 +159,7 @@ export default function Register() {
                   onChange={(e)=>setPassword(e.target.value)} 
                 />
               </div>
-              <p>Already have an account? <Link href={'/signin'} className='underline text-blue-600 font-[600]'>Log In</Link></p>
+              <p>Already have an account? <Link href={'/login'} className='underline text-blue-600 font-[600]'>Log In</Link></p>
               {loading !== true ? <button type='submit' className="bg-[black] text-white p-[10px] mt-[20px] rounded-lg">Submit</button> : <div className='mt-[15px]'><SyncLoader color="#f08800" /></div>}
             </form>
           </div>
